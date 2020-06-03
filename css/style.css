@@ -4,13 +4,14 @@ body {
     font-family: 'Open Sans';
 }
 
-ul,li{
+ul,
+li {
     display: block;
     padding: 0;
     margin: 0;
 }
 
-.menu-bar{
+.menu-bar {
     background: #fff;
     padding: 20px 0;
     color: #212121;
@@ -19,7 +20,7 @@ ul,li{
     margin-left: 37px;
     font-family: 'Open Sans Semibold';
 }
-.menu__item a{
+.menu__item a {
     font-size: 20px;
     color: #212121;
 }
@@ -28,7 +29,7 @@ ul,li{
     color: #868688;
 }
 /*Header*/
-.header > div {
+.header {
     color: white;
     text-align: center;
     padding: 180px 0;
@@ -47,46 +48,42 @@ ul,li{
 }
 
 .button{
+    cursor: pointer;
     padding: 10px 25px;
     margin: 0 10px;
     color: white;
     transition: 0.3s;
+    background: #00897b;
+    border: 2px solid #00897b;
 }
 
-.button_empty{
+.button:hover{
     background:transparent;
     border: 2px solid white;
 }
 
-.button_full{
-    background: #00897b;
-    border: 2px solid #00897b;
-}
-.button_empty:hover, .button_full:hover{
-    border: 2px dotted #04574e;
-}
 /*about section*/
 .about {
+    padding-top: 120px;
+    padding-bottom: 125px;
     color: black;
     background: white;
     text-align: center;
-    padding-top: 120px;
-    padding-top: 125px;
 }
 .about__title {
     font-size: 30px;
     font-weight: bold;
 }
 .about__text {
-    margin-bottom: 110px;
-    font-size: 15px;
     color: #212121;
+    font-size: 15px;
+    margin-bottom: 110px;
 }
 
 .about h3 {
-    font-family: 'Open Sans Semibold';
     margin-top: 30px;
     margin-bottom: 20px;
+    font-family: 'Open Sans Semibold';
     font-size: 20px;
 }
 /*SERVICES*/
@@ -101,15 +98,40 @@ ul,li{
 .our_card {
     background: white;
     padding: 50px 25px 40px;
+    transition: 0.3s;
+    margin-bottom: 30px;
 }
+.our_card:hover {
+    background: #00897b;
+    color: white;
+    box-shadow: 0px 10px 12px -3px rgba(0,0,0,0.26);
+}
+.our_card:hover .icon {
+    color: white;
 
+}
+.our_card:hover .button-services {
+    border: 2px solid white;
+    color: white;
+}
+.our_card:hover .about__text{
+    color: white;
+    transition: 0.3s;
+}
 .icon {
+    transition: 0.3s;
     font-size: 60px;
     color: black;
 }
-
+.button-services:hover {
+    cursor: pointer;
+}
 .button-services {
+    transition: 0.3s;
+    color: black;
     text-transform: uppercase;
-    border: 1px solid black;
+    border: 2px solid black;
     background: transparent;
+    padding: 10px 12px 10px;
+    font-family: 'Open Sans Semibold';
 }
