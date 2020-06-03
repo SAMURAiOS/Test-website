@@ -1,8 +1,7 @@
 @import 'fonts.css';
 
 body {
-    font-family: 'Open Sans Semibold';
-    background: gray;
+    font-family: 'Open Sans';
 }
 
 ul,li{
@@ -18,6 +17,7 @@ ul,li{
 }
 .menu__item {
     margin-left: 37px;
+    font-family: 'Open Sans Semibold';
 }
 .menu__item a{
     font-size: 20px;
@@ -64,4 +64,52 @@ ul,li{
 }
 .button_empty:hover, .button_full:hover{
     border: 2px dotted #04574e;
+}
+/*about section*/
+.about {
+    color: black;
+    background: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-top: 125px;
+}
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text {
+    margin-bottom: 110px;
+    font-size: 15px;
+    color: #212121;
+}
+
+.about h3 {
+    font-family: 'Open Sans Semibold';
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+/*SERVICES*/
+.services {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+}
+
+.our_card {
+    background: white;
+    padding: 50px 25px 40px;
+}
+
+.icon {
+    font-size: 60px;
+    color: black;
+}
+
+.button-services {
+    text-transform: uppercase;
+    border: 1px solid black;
+    background: transparent;
 }
