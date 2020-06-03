@@ -48,6 +48,7 @@ li {
 }
 
 .button{
+    text-transform: uppercase;
     cursor: pointer;
     padding: 10px 25px;
     margin: 0 10px;
@@ -123,10 +124,9 @@ li {
     font-size: 60px;
     color: black;
 }
-.button-services:hover {
-    cursor: pointer;
-}
+
 .button-services {
+    margin-top: 20px;
     transition: 0.3s;
     color: black;
     text-transform: uppercase;
@@ -134,4 +134,29 @@ li {
     background: transparent;
     padding: 10px 12px 10px;
     font-family: 'Open Sans Semibold';
+}
+
+.button-services:hover {
+    cursor: pointer;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 135px;
+}
+
+.portfolio button:hover {
+    color: black;
+    border: 2px solid #00897b;
+    background: transparent;
+}
+
+.portfolio img {
+    margin-bottom: 30px;
+}
+
+.filter {
+    padding: 120px 0;
 }
